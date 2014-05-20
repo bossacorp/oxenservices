@@ -4,21 +4,16 @@ Este será el lugar para guardar sus archivos de trabajo que serviran de soporte
 EQUIPOS
 
 +Project Management (PM - PMC)
-Nestor
-Mario Cesar
+Nestor y Mario Cesar
 
 +Analistas (REQM - RD)
-David
-Agustin
+David y Agustin
 
 +Coders (CM - TS)
-Paco
-Roberto Carlos
+Paco y Roberto Carlos
 
 +Testers (VER-VAL)
-Oscar
-Cesar
+Oscar y Cesar
 
 +Procesos y Mediciones (PPQA - MA)
-Cesar
-Cristian
+Cesar y Cristian
