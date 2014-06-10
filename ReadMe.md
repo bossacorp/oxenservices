@@ -3,7 +3,7 @@ Este será el lugar para guardar sus archivos de trabajo que serviran de soporte
 
 EQUIPOS
 
-+Project Management (PM - PMC)
++Project Management (PP - PMC)
 Nestor y Mario Cesar
 
 +Analistas (REQM - RD)
