@@ -1,0 +1,50 @@
+Requerimientos
+•	R.F. 001.- Después de 3 intentos fallidos contraseña incorrecta, el sistema enviará un correo al usuario para notificar el evento.
+•	R.F. 002.- El sistema deberá contar con una interface que le permita iniciar sesión al usuario.
+•	R.F. 003.- El sistema deberá restringir el acceso a los usuarios que no estén registrados.
+•	R.F. 004.- El sistema deberá mostrar un menú para acceder a las diversas secciones.
+•	R.F. 005.- El Sistema permitirá dejar comentarios por parte de los clientes  en diversos formatos.
+•	R.F. 006.- Según el tipo de usuario tendrá una categoría de acceso al sistema que le permitirá utilizar ciertos componentes.
+•	R.N. 001.- El idioma del software debe ser seleccionado por el usuario a utilizar el software.
+•	R.N. 002.- El sistema deberá contar con una sección para comunicación de redes sociales.
+•	R.N. 003.- El sistema tendrá restricciones de resolución.
+•	R.N. 004.- El Sistema especificará el número de usuarios concurrentes.
+•	R.N. 005.- El sistema deberá contar con una interfaz sencilla con el logo de Oxen Services.
+
+Iniciar sesión
+Usuario ->	Sistema
+Introduce usuario.	-> Captura el usuario en el campo.
+
+Introduce contraseña.	-> 	Captura la contraseña en el campo y oculta el texto.
+Clic a inicio de sesión.	-> 	Contraseña es correcta, se inicia sesión.
+Curso alterno
+Usuario	-> Sistema
+Introduce usuario.	-> 	Captura el usuario en el campo.
+
+Introduce contraseña.	-> 	Captura la contraseña en el campo y oculta el texto.
+Clic a inicio de sesión.	-> 	Contraseña es incorrecta no inicia sesión.
+		-> Ofrece la opción de recuperar contraseña.
+Curso alterno
+Usuario		-> Sistema
+Introduce usuario.	-> 	Captura el usuario en el campo.
+
+Introduce contraseña.	-> 	Captura la contraseña en el campo y oculta el texto.
+Clic a inicio de sesión.	-> 	Contraseña es incorrecta por tercera vez.
+		-> Ofrece la opción de recuperar contraseña.
+		-> Envía un correo al usuario de que se ha intentado iniciar sesión erróneamente.
+Curso alterno
+Usuario	-> 	Sistema
+Introduce usuario.	-> 	Captura el usuario en el campo.
+
+Introduce contraseña.	-> 	Captura la contraseña en el campo y oculta el texto.
+Clic a inicio de sesión.	-> 	El usuario no está registrado.
+	Ofrece la opción de registro.
+Clic a registrarse.	-> 	El sistema abre la ventana de registro.
+
+Selección de idioma
+Usuario	Sistema
+Clic a menú de selección de idioma.	-> 	Muestra los idiomas disponibles.
+Clic a opción de idioma.	-> 	La página se recarga y muestra el idioma seleccionado
+
+
+
